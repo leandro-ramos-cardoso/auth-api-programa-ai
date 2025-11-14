@@ -115,3 +115,5 @@ auth-api-programa-ai/
 
 ## 📄 Licença
 Projeto desenvolvido para fins educacionais no curso **Programa.AI — AppSec**.
+
+## Autor - Leandro RC 2025
