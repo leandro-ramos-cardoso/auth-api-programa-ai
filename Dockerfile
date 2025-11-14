@@ -8,9 +8,9 @@ WORKDIR /app
 
 RUN apt-get update && apt-get install -y --no-install-recommends build-essential libffi-dev && rm -rf /var/lib/apt/lists/*
 
-COPY requeriments.txt /app/requeriments.txt
+COPY requirements.txt /app/requirements.txt
 
-RUN pip install --no-cache-dir -r /app/requeriments.txt
+RUN pip install --no-cache-dir -r /app/requirements.txt
 
 COPY . /app
 
