@@ -37,7 +37,7 @@ jobs:
         run: ruff check .
 
       # Faz build da imagem Docker
-      - name: Docker build (no push)
+      - name: Docker build
         run: docker build -t auth-api:ci .  # Cria a imagem com a tag "auth-api:ci"
 
       # Executa o Semgrep com uma config automática, gerando um relatório SARIF
