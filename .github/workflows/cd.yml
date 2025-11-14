@@ -17,7 +17,8 @@ on:
 # Define os jobs (tarefas) do pipeline
 jobs:
   build-and-deploy: # nome interno do job
-    runs-on: self-hosted # executa em runner local (self-hosted), ou seja, na sua máquina
+    runs-on: ubuntu-latest
+ # executa em runner local (self-hosted), ou seja, na sua máquina
 
     steps:
       # Step 1: faz o checkout do código do repositório
